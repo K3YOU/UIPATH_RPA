@@ -1,0 +1,250 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "A&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "데이터 스크랩핑.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "실습2- 다음 뉴스 수집.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "실습3 - 리디북스!.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "실습2 - 스무고개.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "i",
+        "argument2i"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "실습4 - 스무고개 숫자 맞추기.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "var_my&Flowchart_1",
+        "var&Flowchart_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "n"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "실습5 - 검색 결과 데이터 스크래핑.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "실습6 - 동적테이터 테이블!.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "name_list&Sequence_1",
+        "age&Sequence_1",
+        "name&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "실습7 특정영역문자만 추출!!!.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "new_strTest&Sequence_1",
+        "str2&Sequence_1",
+        "str1&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "실습8 -DateTime!!!.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "newDtmToday&Sequence_1",
+        "dtmtoday&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "실습9 수정 날짜 계산기!!!!.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "과제1 - 날씨생성 후 테이블.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtmToday&Sequence_19",
+        "newDtm20HoursLater&Sequence_19",
+        "CityName&Sequence_19",
+        "degree&Sequence_19",
+        "CityNames&Sequence_3",
+        "dt_Temp&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "argument1"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "5월10일.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "과제2 - 이름 엑셀 파일.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ppl_info&Flowchart_1",
+        "name_o&Sequence_10",
+        "sex_o&Sequence_10",
+        "birth_o&Sequence_10",
+        "phone_o&Sequence_10",
+        "add_o&Sequence_10",
+        "name&Sequence_10",
+        "name_o&Sequence_3",
+        "sex_o&Sequence_3",
+        "birth_o&Sequence_3",
+        "phone_o&Sequence_3",
+        "add_o&Sequence_3",
+        "name_o&Sequence_4",
+        "sex_o&Sequence_4",
+        "birth_o&Sequence_4",
+        "phone_o&Sequence_4",
+        "add_o&Sequence_4",
+        "name_o&Sequence_7",
+        "sex_o&Sequence_7",
+        "birth_o&Sequence_7",
+        "phone_o&Sequence_7",
+        "add_o&Sequence_7",
+        "ppl_info&Sequence_7"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "n"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "시퀀스.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "과제2-2 - 악질이름.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "user_data&Sequence_1",
+        "nickname&Sequence_3",
+        "user_city&Sequence_2",
+        "user_name&Sequence_2",
+        "t1&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "i"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "readRange.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "RPAChallengeSiteAddress&Sequence_1",
+        "TheExcelFile&Sequence_1",
+        "NamesDataTable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "과제3 - 위치정보 저장 후 메일보내기.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "smtp.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "과제4-주식차트 엑셀 메일.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Extract데이터 테이블&Sequence_5",
+        "ExtractDataTable&Sequence_4",
+        "s_img&Sequence_4"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

@@ -1,0 +1,234 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "start_day&Sequence_1",
+        "time_DT&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "오전 - 자격증 시험 합격 또는 불합격 집계.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "password&Sequence_1",
+        "isexixt&Sequence_1",
+        "file_name&Sequence_1",
+        "file_path&Sequence_1",
+        "cur_time&Sequence_1",
+        "i&Sequence_1",
+        "합격률_통계&Sequence_2",
+        "컴활합격_count&Sequence_2",
+        "합격률_컴활&Sequence_2",
+        "합격률_회계&Sequence_2",
+        "디자인_count&Sequence_2",
+        "디자인합격_count&Sequence_2",
+        "회계합격_count&Sequence_2",
+        "통계합격_count&Sequence_2",
+        "통계_count&Sequence_2",
+        "회계_count&Sequence_2",
+        "합격률_디자인&Sequence_2",
+        "score&Sequence_2",
+        "subject&Sequence_2",
+        "컴활_count&Sequence_2",
+        "dt_Table_First&Sequence_2",
+        "dt_DataAll&Sequence_2",
+        "dt_Data&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "오후 - 뉴스 크롤링 후 엑셀저장.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "time&Sequence_2",
+        "ext_table&Sequence_6",
+        "member_name&Sequence_1",
+        "ReadSeen_table&Sequence_1",
+        "result_folder&Sequence_1",
+        "pur_table&Sequence_1",
+        "init_table&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "오후 - RPA Challenge – Input Form.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "e_name&Sequence_2",
+        "p_name&Sequence_2",
+        "add_name&Sequence_2",
+        "r_name&Sequence_2",
+        "c_name&Sequence_2",
+        "l_name&Sequence_2",
+        "f_name&Sequence_2",
+        "pur_table&Sequence_1",
+        "init_table&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "0512오후- unipass 메일 발송.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "i&Sequence_1",
+        "int_total_num&Sequence_2",
+        "str_total_num&Sequence_2",
+        "row_no&Sequence_13",
+        "count&Sequence_12",
+        "total_num&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "오전(원본)- 자격증 시험 합격 또는 불합격 집계.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "i&Sequence_1",
+        "dt_Data&Sequence_2",
+        "dt_DataAll&Sequence_2",
+        "dt_Table_First&Sequence_2",
+        "컴활_count&Sequence_2",
+        "subject&Sequence_2",
+        "score&Sequence_2",
+        "합격률_디자인&Sequence_2",
+        "회계_count&Sequence_2",
+        "통계_count&Sequence_2",
+        "통계합격_count&Sequence_2",
+        "회계합격_count&Sequence_2",
+        "디자인합격_count&Sequence_2",
+        "디자인_count&Sequence_2",
+        "합격률_회계&Sequence_2",
+        "합격률_컴활&Sequence_2",
+        "컴활합격_count&Sequence_2",
+        "합격률_통계&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "0515오전 - 네이버 데이터랩 데이터 스크래핑.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExDT_len&Sequence_19",
+        "file_path&Sequence_1",
+        "NewExDT&Sequence_3",
+        "ExtractDataTable&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "i"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "0515오후 - 나라장터 입찰공고 내용 수집.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "0515_퀴즈1.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_1",
+        "ExtractTableLen&Sequence_1",
+        "file_path&Sequence_1",
+        "idx&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "0515오전 - 네이버 데이터랩 데이터 스크래핑 - 복사 (1).xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "file_path&Sequence_1",
+        "ExtractDataTable&Sequence_2",
+        "NewExDT&Sequence_3",
+        "ExDT_len&Sequence_19"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "i"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "0516 TEST.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "FilePath_Output&Sequence_1",
+        "Year&Sequence_1",
+        "Month&Sequence_1",
+        "Day&Sequence_1",
+        "time&Sequence_1",
+        "file_fullname&Sequence_1",
+        "time_DT&Sequence_1",
+        "start_day&Sequence_1",
+        "last_day&Sequence_1",
+        "gender_filter_dt&Sequence_1",
+        "age_filter_dt&Sequence_1",
+        "city_dt&Sequence_1",
+        "gender_dt&Sequence_1",
+        "occ_filter_dt&Sequence_1",
+        "age_dt&Sequence_1",
+        "occurrence_dt&Sequence_1",
+        "city_filter_dt&Sequence_1",
+        "First_anw&Sequence_1",
+        "total_1&Sequence_1",
+        "start_day_con&Sequence_1",
+        "last_day_con&Sequence_1",
+        "mean_1&Sequence_1",
+        "total_2&Sequence_1",
+        "anw_3&Sequence_1",
+        "max&Sequence_1",
+        "maxindex&Sequence_1",
+        "occ&Sequence_4",
+        "Output_dt&Sequence_4",
+        "idx_i&Sequence_18"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "개인과제.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "File_path2&Sequence_1",
+        "File_name&Sequence_1",
+        "city_row&Sequence_1",
+        "File_path&Sequence_1",
+        "ExtractDataTable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

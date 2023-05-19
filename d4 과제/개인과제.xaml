@@ -1,0 +1,347 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="개인과제" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="895.2000000000002,2591.2" sap2010:WorkflowViewState.IdRef="개인과제_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.SMTP.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="개인과제" sap:VirtualizedContainerService.HintSize="905.6,2526.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Default="[New System.Data.DataTable]" Name="ExtractDataTable" />
+      <Variable x:TypeArguments="x:String" Default="C:\Users\user\Desktop\0518 개인과제\개인과제.xlsx" Name="File_path" />
+      <Variable x:TypeArguments="s:String[]" Name="city_row" />
+      <Variable x:TypeArguments="x:String" Name="File_name">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">\개인과제.xlsx</Literal>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="x:String" Name="File_path2">
+        <Variable.Default>
+          <Literal x:TypeArguments="x:String">C:\Users\user\Desktop</Literal>
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="843.2,134.4" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="chrome" />
+    <ui:OpenBrowser AutomaticallyDownloadWebDriver="{x:Null}" CommunicationMethod="{x:Null}" Hidden="{x:Null}" NewSession="{x:Null}" Private="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Open Browser" sap:VirtualizedContainerService.HintSize="843.2,2240" sap2010:WorkflowViewState.IdRef="OpenBrowser_2" Url="https://www.daum.net/">
+      <ui:OpenBrowser.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+          </ActivityAction.Argument>
+          <Sequence sap:VirtualizedContainerService.HintSize="809.6,2137.6" sap2010:WorkflowViewState.IdRef="Sequence_23">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="747.2,2025.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  q'" sap:VirtualizedContainerService.HintSize="684.8,135.2" sap2010:WorkflowViewState.IdRef="TypeInto_2" Text="서울 콘서트 일정[k(enter)]">
+                <ui:TypeInto.Target>
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="44e37f46-e9ab-455b-bc46-5c8b4df70e44" InformativeScreenshot="1b714b4a161ca6839f18135ab0efd0a2" Selector="&lt;webctrl id='q' tag='INPUT' /&gt;">
+                    <ui:Target.TimeoutMS>
+                      <InArgument x:TypeArguments="x:Int32" />
+                    </ui:Target.TimeoutMS>
+                    <ui:Target.WaitForReady>
+                      <InArgument x:TypeArguments="ui:WaitForReady" />
+                    </ui:Target.WaitForReady>
+                  </ui:Target>
+                </ui:TypeInto.Target>
+              </ui:TypeInto>
+              <Assign sap:VirtualizedContainerService.HintSize="684.8,81.6" sap2010:WorkflowViewState.IdRef="Assign_1">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="s:String[]">[city_row]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="s:String[]">[{"서울","부산","대구","강원"}]</InArgument>
+                </Assign.Value>
+              </Assign>
+              <Sequence sap:VirtualizedContainerService.HintSize="684.8,1616.8" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'A  javascript:;'" sap:VirtualizedContainerService.HintSize="622.4,107.2" sap2010:WorkflowViewState.IdRef="Click_6" KeyModifiers="None" MouseButton="BTN_LEFT">
+                  <ui:Click.CursorPosition>
+                    <ui:CursorPosition Position="Center">
+                      <ui:CursorPosition.OffsetX>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetX>
+                      <ui:CursorPosition.OffsetY>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetY>
+                    </ui:CursorPosition>
+                  </ui:Click.CursorPosition>
+                  <ui:Click.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="db26f1a0-7353-4998-a866-ebbb8120c7e2" InformativeScreenshot="2dd8278adbae0083dae8d64b7f84c9a4" Selector="&lt;html app='chrome.exe' title='서울 콘서트 일정 – Daum 검색' /&gt;&lt;webctrl aaname=' 공연 ' innertext=' 공연 ' /&gt;&lt;nav up='1' /&gt;&lt;webctrl aaname=' 공연 ' innertext=' 공연 ' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:Click.Target>
+                </ui:Click>
+                <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'SELECT'" sap:VirtualizedContainerService.HintSize="622.4,107.2" sap2010:WorkflowViewState.IdRef="Click_7" KeyModifiers="None" MouseButton="BTN_LEFT">
+                  <ui:Click.CursorPosition>
+                    <ui:CursorPosition Position="Center">
+                      <ui:CursorPosition.OffsetX>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetX>
+                      <ui:CursorPosition.OffsetY>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:CursorPosition.OffsetY>
+                    </ui:CursorPosition>
+                  </ui:Click.CursorPosition>
+                  <ui:Click.Target>
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="54bea161-d768-4cee-8efc-8edbcba02894" InformativeScreenshot="5c7c378cf4c56249a7f2bcf3a4c63265" Selector="&lt;webctrl idx='2' tag='SELECT' /&gt;">
+                      <ui:Target.TimeoutMS>
+                        <InArgument x:TypeArguments="x:Int32" />
+                      </ui:Target.TimeoutMS>
+                      <ui:Target.WaitForReady>
+                        <InArgument x:TypeArguments="ui:WaitForReady" />
+                      </ui:Target.WaitForReady>
+                    </ui:Target>
+                  </ui:Click.Target>
+                </ui:Click>
+                <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each" sap:VirtualizedContainerService.HintSize="622.4,1210.4" sap2010:WorkflowViewState.IdRef="ForEach`1_3" Values="[city_row]">
+                  <ui:ForEach.Body>
+                    <ActivityAction x:TypeArguments="x:String">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="x:String" Name="Item" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="본문" sap:VirtualizedContainerService.HintSize="588.8,1022.4" sap2010:WorkflowViewState.IdRef="Sequence_30">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:SelectItem AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" DisplayName="Select Item 'SELECT'" sap:VirtualizedContainerService.HintSize="545.6,135.2" sap2010:WorkflowViewState.IdRef="SelectItem_2" Item="[Item]">
+                          <ui:SelectItem.Items>
+                            <scg:List x:TypeArguments="x:String" Capacity="32">
+                              <x:String>지역 선택</x:String>
+                              <x:String>전체</x:String>
+                              <x:String>강원</x:String>
+                              <x:String>경기</x:String>
+                              <x:String>경남</x:String>
+                              <x:String>경북</x:String>
+                              <x:String>광주</x:String>
+                              <x:String>대구</x:String>
+                              <x:String>대전</x:String>
+                              <x:String>부산</x:String>
+                              <x:String>서울</x:String>
+                              <x:String>세종</x:String>
+                              <x:String>울산</x:String>
+                              <x:String>인천</x:String>
+                              <x:String>전남</x:String>
+                              <x:String>전북</x:String>
+                              <x:String>제주</x:String>
+                              <x:String>충남</x:String>
+                              <x:String>충북</x:String>
+                            </scg:List>
+                          </ui:SelectItem.Items>
+                          <ui:SelectItem.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="5a25f18f-969c-4c72-96f0-3d6db394876f" InformativeScreenshot="040c90af74147a2c49d7baf12c969622" Selector="&lt;webctrl idx='2' tag='SELECT' /&gt;">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                              <ui:Target.WaitForReady>
+                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                              </ui:Target.WaitForReady>
+                            </ui:Target>
+                          </ui:SelectItem.Target>
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </ui:SelectItem>
+                        <Sequence DisplayName="본문" sap:VirtualizedContainerService.HintSize="545.6,757.6" sap2010:WorkflowViewState.IdRef="Sequence_34">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Application/Browser" sap:VirtualizedContainerService.HintSize="483.2,645.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="428ce731-8ef5-4891-a9d5-924e55540590" Version="V2">
+                            <uix:NApplicationCard.Body>
+                              <ActivityAction x:TypeArguments="x:Object">
+                                <ActivityAction.Argument>
+                                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                                </ActivityAction.Argument>
+                                <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="449.6,428.8" sap2010:WorkflowViewState.IdRef="Sequence_33">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
+                                  <uix:NExtractData AppendResults="False" ContinueOnError="True" DataTable="[ExtractDataTable]" DisplayName="Extract Table Data" ExtractDataSettings="&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured'&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='콘서트명' ReferenceName='Column3'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='장소' ReferenceName='Column4'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataColumn' Name='기간' ReferenceName='Column5'&gt;&#xA;&#x9;&#x9;&lt;IsValidName&gt;true&lt;/IsValidName&gt;&#xA;&#x9;&#x9;&lt;ValidationErrorMessage /&gt;&#xA;&#x9;&#x9;&lt;IsExtra&gt;false&lt;/IsExtra&gt;&#xA;&#x9;&#x9;&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;&#xA;&#x9;&#x9;&lt;Format xsi:type='TextColumnFormat' /&gt;&#xA;&#x9;&lt;/Column&gt;&#xA;&#x9;&lt;Column xsi:type='DataNextLink' /&gt;&#xA;&lt;/Table&gt;" ExtractMetadata="&lt;extract&gt;&lt;row exact='1'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='c-card-view' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;/row&gt;&lt;column exact='1' name='Column3' attr='fulltext'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='c-card-view' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='c-title' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column4' attr='fulltext'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='c-card-view' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='c-list-grid-desc' idx='1' /&gt;&lt;webctrl tag='dl' idx='1' /&gt;&lt;webctrl tag='dd' idx='1' /&gt;&lt;/column&gt;&lt;column exact='1' name='Column5' attr='fulltext'&gt;&lt;webctrl tag='li' /&gt;&lt;webctrl tag='c-card-view' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='div' idx='2' /&gt;&lt;webctrl tag='c-list-grid-desc' idx='1' /&gt;&lt;webctrl tag='dl' idx='1' /&gt;&lt;webctrl tag='dd' idx='2' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NExtractData_3" LimitExtractionTo="None" MaximumResults="0" Version="V3">
+                                    <uix:NExtractData.NextLink>
+                                      <uix:TargetAnchorable BrowserURL="https://search.daum.net/search?w=tot&amp;DA=YZR&amp;t__nil_searchbox=btn&amp;sug=&amp;sugo=&amp;sq=&amp;o=&amp;q=%EC%84%9C%EC%9A%B8+%EC%BD%98%EC%84%9C%ED%8A%B8+%EC%9D%BC%EC%A0%95" CvType="Button" DesignTimeRectangle="1077, 661, 15, 15" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'다음 컨텐츠보기'" FullSelectorArgument="&lt;webctrl aaname='다음 컨텐츠보기' class='ico-pmp' parentid='tcsCard' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='다음 컨텐츠보기' class='ico-pmp' parentid='tcsCard' tag='SPAN' type='' check:innerText='다음 컨텐츠보기' /&gt;" Guid="a4ba6d19-f986-4512-af4c-f3f504566172" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACASURBVDhP1dPBDYAgEERRq6UQKIka6IYr5zWfxNsuMsSLPzHeXiZuvOzDfoaNMazWOt9KLtZas5SSlVIkMFyWc5bB8JudgMsDqOASIwV8xWgX3MKo9z4xHq7ttb2MRUAsPF62C9ESUyAKMRUiFzuByMWef1OBKFwGqEC0PICW2Q1Lc16U0LcutAAAAABJRU5ErkJggg==" ScopeSelectorArgument="&lt;html app='chrome.exe' title='서울 콘서트 일정 – Daum 검색' /&gt;" SearchSteps="FuzzySelector, Image, CV" Version="V2" Visibility="Interactive">
+                                        <uix:TargetAnchorable.Anchors>
+                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                            <uix:Target DesignTimeRectangle="1065, 650, 38, 38" ElementType="Button" FriendlyName="'다음 컨텐츠보기'" FullSelectorArgument="&lt;webctrl aaname='다음 컨텐츠보기' parentid='tcsCard' tag='BUTTON' type='button' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='다음 컨텐츠보기' parentid='tcsCard' tag='BUTTON' type='button' class='btn_page btn_next' check:innerText='다음 컨텐츠보기' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACoAAAAqCAYAAADFw8lbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAP/SURBVFhHzZj5btpAEId52jxI8kh5hvxVVZWqtjRtwm3A+MQHhFzb/SYdy4BJCmxCRxqBwDYfv7l2t/X8/Gzwp6cn8/j4aB4eHsxqtTJpmpp9TJ+DT/zQxGlu5vnCZMXSiR8EWofiPr1X3ZvMTBjPTTIvTJqVAqzeBPEvvhdo07X39/dy/d3dnVkul+L94dhMZ5EJotRESSbqbkI3wbzm/wTa9D1AwAHK51yjxttHe/1qdW/KcmkhcwudiMqb0E1QTf4qaP07PlfVgDvEysXSKjwXpQHeR+GdoEmSVJ+pgocCbtrCAodxupXHTYDqjaAoF8exvNcQv4fNs9zMwmRN3SZIfAsU1YALgsD+84Wo+Z5WFAvjB7EU3Wuwa6Aa9qIozGQyeXdItaJ8G7YCratJIWVZ9vcxH2N5XgrsrjRYAyUX8zwXP4Ul6bzK2UZQwo6aZWn/yXwu4KcwftcPXgYF3aAOK6CqJuEm9Ke0kny1U03ztQLVIlI1/wdDVVKgrmoLNanuY9TkT15eXsqrC8vywkztCqyuakubuo7MQ+zq6sqcnZ2Zi4sLJ7BwjKfBWq626kV0qHH/+fm5U9ggjKt2JaAa9mMf7hqW8Trxgyr8LaqdsLuYQi5hFzYdvYkvCxcBJT9ZgFBULswVLLUz9KZVnrZYeERR5LTJu4CFZzCaVG2qxUPCMPz7tTvjmYDidIVDjC2NFpSAsqRzaTwTJYFE2UMUxXoDbxvUVehdQcLTCOqimFxBYhTTFij5dOx2wyUkVtoi1xytqp72dMxC2TUkFieptKeq6umj7DiPqXyd9a4gsbFt9qNxrY8Scub8dDo9uKCAA9YVJBy33YFdmLwcDclkYlHCZm42m334PmmXpXZL0u2PZAFdLUqoLp1OqPo/2GDoreWngOo2hPCPx+OTbezUUsuxGXYB1Y0d4aefep7nrPnva/xux0Iy47V/AlntmVBVV/moSr6ewqj0Tm+4paaA8i+A1RMS2lS/33c+/9+yIIzM79uetKSmvX0FqnsnbVXtdvvDukAcJ+b6d+dlEtW2yluguO5G6YVMqk6nY0ajkaTDexpK/vx1K3OdrYceRdYh10BVVT2IoKhIA2Bdrq7UeN7Im6xBNp2QNIKiKh2AvkpB0arorxQYwK5SgTn+66ZjvSvhfguyEVRVBVALjLWA7/tmOByK0uQx9+xjXB9FsbmxBdO+vpFeSVPnoGFXuOveCAogcHWFUVOnF8C9Xk/OUMln8pr7FP7Jvq7sfZmNiD8L7DgcmO/tawG86fRFRVoQvZLCeQsS3wmqJyf13AUINQEmNTQlaGeAd7td8U+fv5iv336Y7z+uJQcJMf0RQLbAVDahpgVtVnezL80f9E3TZorSG+gAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image" />
+                                          </scg:List>
+                                        </uix:TargetAnchorable.Anchors>
+                                      </uix:TargetAnchorable>
+                                    </uix:NExtractData.NextLink>
+                                    <uix:NExtractData.Target>
+                                      <uix:TargetAnchorable DesignTimeRectangle="259, 548, 825, 249" DesignTimeScaleFactor="1.25" ElementType="List" FriendlyName="'UL'" FullSelectorArgument="&lt;webctrl parentid='tcsCard' tag='UL' /&gt;" Guid="79ae57ea-3234-4c4e-ae29-d372e310c422" InformativeScreenshot="53a602381644e02d18c118195279ff88.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='서울 콘서트 일정 – Daum 검색' /&gt;" SearchSteps="Selector" Version="V2" Visibility="Interactive" />
+                                    </uix:NExtractData.Target>
+                                  </uix:NExtractData>
+                                  <ui:WriteRange AddHeaders="True" DataTable="[ExtractDataTable]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="387.2,116" sap2010:WorkflowViewState.IdRef="WriteRange_8" SheetName="[Item]" StartingCell="A1" WorkbookPath="[File_path2 + File_name]">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                  </ui:WriteRange>
+                                </Sequence>
+                              </ActivityAction>
+                            </uix:NApplicationCard.Body>
+                            <uix:NApplicationCard.TargetApp>
+                              <uix:TargetApp Area="0, 0, 0, 0" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="7310921053142d77a143b38d3d029653.jpg" Selector="&lt;html app='chrome.exe' title='서울 콘서트 일정 – Daum 검색' /&gt;" Title="서울 콘서트 일정 – Daum 검색" Url="https://search.daum.net/search?w=tot&amp;DA=YZR&amp;t__nil_searchbox=btn&amp;sug=&amp;sugo=&amp;sq=&amp;o=&amp;q=%EC%84%9C%EC%9A%B8+%EC%BD%98%EC%84%9C%ED%8A%B8+%EC%9D%BC%EC%A0%95" />
+                            </uix:NApplicationCard.TargetApp>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                          </uix:NApplicationCard>
+                        </Sequence>
+                      </Sequence>
+                    </ActivityAction>
+                  </ui:ForEach.Body>
+                </ui:ForEach>
+              </Sequence>
+            </Sequence>
+          </Sequence>
+        </ActivityAction>
+      </ui:OpenBrowser.Body>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:OpenBrowser>
+  </Sequence>
+</Activity>
